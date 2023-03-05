@@ -1,3 +1,56 @@
+# アプリケーション名
+概要説明（どんなアプリか）
+
+・お問い合わせ情報フォームから情報を入力し、DBに登録を行う
+
+・管理システム画面で登録されている情報を検索、削除ができる
+
+< --- トップ画面の画像 ---- >
+![image](https://user-images.githubusercontent.com/119716881/222984868-22e5b1be-2237-4204-b131-63b4bfdd3794.png)
+
+
+## 作成した目的
+概要説明（なんで作成したか）
+
+スタンダードタームで学習したことの習熟度合いの確認のため
+
+## 機能一覧
+- 例）ログイン機能
+
+・お問い合わせ情報の登録
+
+・お問い合わせ情報の検索
+
+・お問い合わせ情報の削除
+
+
+
+## 使用技術（実行環境）
+- 例）　Laravel　8.x（言語やフレームワーク、バージョンなどが記載されていると良い）
+
+・VisualStudioCode ver1.76.0
+
+・Laravel Framework 8.83.27
+
+・HTML
+
+・CSS
+
+・PHP
+
+## テーブル設計
+< --- 作成したテーブル設計の画像 ---- >
+
+テーブル1つだけのため省略
+
+## ER図
+< --- 作成したER図の画像 ---- >
+
+テーブル1つだけのため省略
+
+## 他に記載することがあれば記述する
+例） ## 環境構築、## アカウントの種類（テストユーザーなど）
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
