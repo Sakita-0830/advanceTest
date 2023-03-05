@@ -1,0 +1,21 @@
+.thanks{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.thanks_content{
+  display: inline-block;
+  margin-top: 45vh;
+  margin-bottom: 50px;
+}
+.toppage{
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 10px 20px;
+}

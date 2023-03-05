@@ -1,0 +1,33 @@
+.form {
+  width: 90vw;
+  margin: 0 auto;
+}
+.check_table_tr{
+  margin-bottom: 20px;
+}
+.check_table_th{
+  width: 20vw;
+  height: 50px;
+  text-align: left;
+  vertical-align: top;
+}
+.check_table_td {
+  height: 50px;
+  text-align: left;
+  vertical-align: top;
+}
+.check_table_td-name{
+  display: inline-block;
+}
+.buttom{
+  margin-top: 20px;
+}
+.correction {
+  display: block;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: transparent;
+  color: black;
+  margin: 0 auto;
+}

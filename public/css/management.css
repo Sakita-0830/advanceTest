@@ -1,0 +1,172 @@
+/* 共通 */
+.form{
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border: solid 2px black;
+}
+.management_label{
+    display: inline-block;
+    width: 40vw;
+    margin-bottom: 20px;
+}
+.management_label_name{
+  display: inline-block;
+  width: 15vw;
+  font-weight: bolder;
+  font-size: 1em;
+}
+.management_input_item{
+  display: inline-block;
+  width: 23vw;
+  height: 25px;
+  font-weight: bolder;
+  font-size: 1em;
+}
+/* 性別 */
+.management_input_sex{
+  display: inline-block;
+}
+.management_label_name_sex{
+  display: inline-block;
+  width: 5vw;
+  font-weight: bolder;
+  font-size: 1em;
+  margin-left: 50px;
+}
+.management_input_sex_item {
+    transform: scale(1.5);
+    margin-right: 20px;
+}
+/* 登録日 */
+.management_label_created{
+  display: inline-block;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.management_created_item{
+  display: inline-block;
+  margin: 0 20px;
+}
+/* ボタン */
+.management_reset{
+  display: block;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: transparent;
+  color: black;
+  text-align: center;
+  margin: 10px auto 0 auto;
+}
+
+/* 検索データ */
+table{
+  width: 90vw;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+th{
+  text-align: left;
+  padding-left: 10px;
+  border: none;
+}
+td{
+  padding-left: 10px;
+  padding-bottom:10px;
+}
+.table_tr_th{
+  border: none;
+  border-bottom: 1px solid black;
+}
+.table_th_id{
+  width: 10vw;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+.table_th_name{
+  width: 10vw;
+  border-bottom: 1px solid black;
+}
+.table_th_sex{
+  width: 10vw;
+  border-bottom: 1px solid black;
+}
+.table_th_email{
+  width: 10vw;
+  border-bottom: 1px solid black;
+}
+.table_th_opinion{
+  width: 50vw;
+  border-bottom: 1px solid black;
+}
+.table_td_id {
+  width: 10vw;
+}
+.table_td_name {
+  width: 10vw;
+}
+.table_td_sex {
+  width: 10vw;
+}
+.table_td_email {
+  width: 10vw;
+}
+.table_td_opinion {
+  width: 50vw;
+}
+/* ご意見マウスオーバー処理 */
+.table_td_opinion div:nth-child(2){
+  display: none;
+}
+.table_td_opinion:hover div:nth-child(1){
+  display: none;
+}
+.table_td_opinion:hover div:nth-child(2){
+  display: block;
+}
+
+.table_td_button{
+  display: block;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+/* ページネーション */
+.paginate{
+  display: block;
+  width: 90vw;
+  margin: 0 auto;
+}
+.paginate_content{
+  display: flex;
+  justify-content: space-between;
+}
+.page_count_content{
+  display: inline-block;
+}
+svg.w-5.h-5 {
+  width: 30px;
+  height: 30px;
+  border: solid 1px gray;
+}
+.page_link_content{
+  display: inline-block;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.page_link_flex{
+  display: flex;
+  flex-direction: row;
+}
+.page_link{
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: solid 1px gray;
+}

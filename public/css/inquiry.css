@@ -1,0 +1,124 @@
+/* お問い合わせフォーム */
+.form {
+  width: 90vw;
+  margin: 0 auto;
+}
+.inquiry_label {
+  display: block;
+  font-weight: bolder;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+.inquiry_input {
+  width: 70vw;
+  height: 30px;
+}
+.inquiry_label_name {
+  display: inline-block;
+  width: 15vw;
+  font-weight: bolder;
+  font-size: 1em;
+}
+.inquiry_example {
+  display: inline-block;
+  color: rgb(200, 200, 200);
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 20vw;
+}
+.error_message{
+  color: red;
+  font-weight: bolder;
+  margin-left: 16vw;
+}
+.error_content_name{
+  display: inline-block;
+  width: 70vw;
+  margin-left: 15vw;
+}
+.error_message_surname{
+  display: inline-block;
+  width: 33vw;
+  color: red;
+  font-weight: bolder;
+}
+.error_message_name {
+  display: inline-block;
+  width: 33vw;
+  color: red;
+  font-weight: bolder;
+}
+.error_message_post{
+  color: red;
+  font-weight: bolder;
+  margin-left: 20vw;
+}
+
+/* 名前関係 */
+.inquiry_input_name {
+  display: inline-block;
+  width: 70vw;
+}
+.inquiry_input_name_item {
+  display: inline-block;
+  width: 33vw;
+  height: 30px;
+}
+
+/* 名前　例 */
+.inquiry_example_surname {
+  display: inline-block;
+  color: rgb(200, 200, 200);
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 20vw;
+}
+.inquiry_example_name {
+  display: inline-block;
+  color: rgb(200, 200, 200);
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: 35vw;
+}
+
+/* 性別 */
+.inquiry_label_required {
+  color: red;
+  display: inline-block;
+}
+.inquiry_input_sex {
+  display: inline-block;
+  margin-right: 20px;
+}
+.inquiry_input_sex_item {
+  transform: scale(2.0);
+  margin-right: 10px;
+}
+
+/* 郵便番号 */
+.inquiry_input_post {
+  display: inline-block;
+  width: 70vw;
+}
+.inquiry_post_mark {
+  width: 4vw;
+}
+.inquiry_input_post_item {
+  display: inline-block;
+  width: 70vw;
+  height: 30px;
+  ime-mode: disabled
+}
+
+/* ご意見 */
+.inquiry_label_name_opinion {
+  display: inline-block;
+  width: 15vw;
+  font-weight: bolder;
+  font-size: 1em;
+  vertical-align: top;
+}
+.inquiry_input_opinion {
+  width: 70vw;
+  height: 100px;
+}
