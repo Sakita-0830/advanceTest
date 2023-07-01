@@ -5,9 +5,17 @@
 
 ・管理システム画面で登録されている情報を検索、削除ができる
 
-< --- トップ画面の画像 ---- >
+< --- お問い合わせ画面 ---- >
 ![image](https://user-images.githubusercontent.com/119716881/222984868-22e5b1be-2237-4204-b131-63b4bfdd3794.png)
 
+< --- 内容確認画面 ---- >
+![image](https://github.com/Sakita-0830/advanceTest/assets/119716881/18bcce75-40b1-4830-83a2-af2ea706c9c3)
+
+< --- 問い合わせ完了画面 ---- >
+![image](https://github.com/Sakita-0830/advanceTest/assets/119716881/84094ddf-b3ff-4ed9-be74-42bb49d95397)
+
+< --- 管理システム画面 ---- >
+![image](https://github.com/Sakita-0830/advanceTest/assets/119716881/3732c699-fb11-4c9d-ab18-017d5647d2c4)
 
 ## 作成した目的
 概要説明（なんで作成したか）
@@ -40,8 +48,7 @@
 
 ## テーブル設計
 < --- 作成したテーブル設計の画像 ---- >
-
-テーブル1つだけのため省略
+![image](https://github.com/Sakita-0830/advanceTest/assets/119716881/1aa52770-d4f2-4f5e-85f4-77307418e534)
 
 ## ER図
 < --- 作成したER図の画像 ---- >
